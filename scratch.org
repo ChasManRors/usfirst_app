@@ -22,7 +22,8 @@
    $ git config --global alias.co checkout
    $ git config --global core.editor "/Applications/Emacs.app/Contents/MacOS/bin/emacsclient
 
-** DEVELOP
+
+** INIT DEVELOP
 
    $ rails new my_app
    <edit .gitignore>
@@ -50,7 +51,22 @@
 
    $ git commit -am "Improve the README file" # to commit changed files
 
+   $ git co master		
+   
+   $ git merge modify-README
 
+   $ git branch -d modify-README
+   <$ git branch -D modify-README> # if you did not do above merge
+
+   $ git push
+
+   $ heroku create usfirst-app
+
+   $ git push heroku master
+
+
+
+** DEVELOP CYCLE
 
 
 ** TEARDOWN
