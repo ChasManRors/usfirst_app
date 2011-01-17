@@ -27,12 +27,24 @@
    $ rails new my_app
    <edit .gitignore>
    $ git init
+
    <edit Gemfile>
    $ bundle install
+
    $ rails server
    <C-c C-c>
+
    $ git add .
    $ git commit -am "Initial commit"
+
+   <edits>
+
+   $ git checkout -f # restores if not added or commited
+
+   <create new repo on github https://github.com/repositories/new & link to existing>
+   $ git remote add origin git@github.com:ChasManRors/usfirst_app.git
+
+
 
 ** TEARDOWN
 
