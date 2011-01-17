@@ -36,14 +36,17 @@
 
    $ git add .
    $ git commit -am "Initial commit"
+   $ git checkout -b modify-README # 3 commands always done together except 1st time
 
    <edits>
 
-   $ git checkout -f # restores if not added or commited
+   <$ git checkout -f # restores if not added or commited>
 
    <create new repo on github https://github.com/repositories/new & link to existing>
-   $ git remote add origin git@github.com:ChasManRors/usfirst_app.git
+   < $ git remote add origin git@github.com:ChasManRors/usfirst_app.git> # only 1st time.
+   $ git push origin master
 
+   < $ git mv README README.markdown># to rename files
 
 
 ** TEARDOWN
