@@ -35,7 +35,7 @@
    <C-c C-c>
 
    $ git add .
-   $ git commit -am "Initial commit"
+   $ git commit -m "Initial commit"
    $ git checkout -b modify-README # 3 commands always done together except 1st time
 
    <edits>
@@ -46,7 +46,11 @@
    < $ git remote add origin git@github.com:ChasManRors/usfirst_app.git> # only 1st time.
    $ git push origin master
 
-   < $ git mv README README.markdown># to rename files
+   < $ git mv README README.markdown> # to rename files
+
+   $ git commit -am "Improve the README file" # to commit changed files
+
+
 
 
 ** TEARDOWN
